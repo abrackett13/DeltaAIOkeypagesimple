@@ -1,0 +1,8 @@
+print ('hello DeltaAIO user')
+print ('key')
+key = input ()
+while key != '123456789':
+    print ('please enter a valid key')
+    key = input ()
+if key == '123456789':
+    print ('welcome to DeltaAIO')
